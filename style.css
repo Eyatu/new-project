@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Lets Coffee';
+    src: url('fonts/Lets-Coffee.eot');
+    src: url('fonts/Lets-Coffee.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Lets-Coffee.woff2') format('woff2'),
+         url('fonts/Lets-Coffee.woff') format('woff'),
+         url('fonts/Lets-Coffee.ttf')  format('truetype'),
+         url('fonts/Lets-Coffee.svg#Lets Coffee') format('svg');
+}
+
+header {
+    background-image: url('http://s3.amazonaws.com/spoonflower/public/design_thumbnails/0271/4593/Wood_Planks_v1.0_-_25px_ea_shop_preview.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -2;
+}
+
+header.Title{
+    font-family: 'Lets Coffee';
+    font-size: 30px;
+    display: boxed;
+    font-style: italic;
+}
+
+.main {
+    z-index: 2;
+}
+
+article.introbox{
+    font-weight: 200;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+    font-size: xx-large;
+}
+
+h3.steps{
+font-size: 22px;
+color: azure;
+}
+
+.bg {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNCwxOOfPzwiVdRWA2v2AfltcYgwuqMkekuw&usqp=CAU');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
