@@ -10,9 +10,9 @@
 
 header {
     background-image: url('http://s3.amazonaws.com/spoonflower/public/design_thumbnails/0271/4593/Wood_Planks_v1.0_-_25px_ea_shop_preview.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -2;
+    display: block;
+    width: 100%;
+    margin: auto;
 }
 
 header.Title{
@@ -22,16 +22,14 @@ header.Title{
     font-style: italic;
 }
 
-.main {
-    z-index: 2;
-}
 
-article.introbox{
+.intro{
     font-weight: 200;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
-    color: black;
-    font-size: xx-large;
+    color: white;
+    font-size: 25px;
+    background-image: url('https://i.pinimg.com/originals/85/b1/48/85b1489ae0d35e0f3e18219b5654fe44.png');
 }
 
 h3.steps{
@@ -39,7 +37,7 @@ font-size: 22px;
 color:  black;
 }
 
-.bg {
+body {
     background-image: url('https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/0c/End_Stone_background_BE1.png/revision/latest?cb=20210820070126');
     background-repeat: no-repeat;
     background-position: center;
